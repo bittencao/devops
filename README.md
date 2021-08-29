@@ -23,7 +23,7 @@
 # devops
 Material do curso de treinamento de DevOps
 
-Apenas R$ 27,90 
+Apenas R$ 28,90 
 
 https://www.udemy.com/course/devops-mao-na-massa-docker-kubernetes-rancher/?referralCode=E0F907D36B02CEE83227
 
