@@ -1,0 +1,4 @@
+#Descrição do Projeto
+
+#Aplicação criada na nuvem AWS utilizando contêiners Docker, Kubernetes e Rancher.
+#Composto por quatro servidores implementados
