@@ -270,7 +270,17 @@ Fazer o deployment do Longhorn.
 $ kubectl apply -f mariadb-longhorn-volume.yml
 ```
 
-
+NAME                                                      STATE     TYPE      NODE   AGE
+instancemanager.longhorn.io/instance-manager-e-888bc64e   running   engine    k8s3   70m
+instancemanager.longhorn.io/instance-manager-e-96cca60b   running   engine    k8s1   70m
+instancemanager.longhorn.io/instance-manager-e-d39cec5f   running   engine    k8s2   70m
+instancemanager.longhorn.io/instance-manager-r-0a2b2a27   running   replica   k8s3   70m
+instancemanager.longhorn.io/instance-manager-r-5905353d   running   replica   k8s1   70m
+instancemanager.longhorn.io/instance-manager-r-7c0f7814   running   replica   k8s2   70m
+NAME                    READY   ALLOWSCHEDULING   SCHEDULABLE   AGE
+node.longhorn.io/k8s1   True    true              True          70m
+node.longhorn.io/k8s2   True    true              True          70m
+node.longhorn.io/k8s3   True    true              True          70m
 
 
 
